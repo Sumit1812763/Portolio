@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: left;/*aligns nav on top and in one single line*/
+    align-items:center ;/*moves nav so that its not touching the top of the window*/
+    min-height: 4vh;
+   
+    background-color: black ;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;/*makes sure there is space betwen each link*/
+    width: 30%;/*space between links specified*/
+}
+
+.nav-links li{
+    list-style: none;/*removes bullet point on headings*/
+}
+
+.nav-links a{
+   color: white;
+   text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
+    
+}
+
+.nav-links a:hover{/*this acces when the mouse hover our the nav links*/
+    opacity: 0.7;/* allows link to be a darker colour when mouse is hoveing over the link*/
+}
+
+
+
+.home{
+    background-color: white;
+    color: Black;
+    align-content: center;
+    text-align: center;
+}
+.home h1{
+    text-align: center;
+    padding: 10rem;
+    font-size: 100px;
+}
+.home p{
+    padding-bottom: 10rem;
+}
+
+.about{
+    padding: 200px;
+    background-image: url("Desk.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+   
+    text-align: center;
+   
+}
+.about h1{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.about p {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.skills{
+    background-color: black;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.skills h1{
+    text-align: center;
+    padding: 10rem;
+}
