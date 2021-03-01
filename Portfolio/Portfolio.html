@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Sumit Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="Contact.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+</head>
+
+
+<body>
+    <nav>
+        <!-- <div class="header">
+           <h4>SB</h4>
+        </div> -->
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a><!--creates nav link to internal page remeber # and then id name-->
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="logo">
+            <img src="SB.png">
+        </div>
+                
+            
+        </div>
+
+    </nav>
+    <section>
+        <div class="home" id="home">
+            <h1>Hi I'm Sumit</h1>
+            <p>
+                Learn more about what I do
+            </p>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                        
+        </div>
+        
+    </section>
+    
+    </section>
+        <div class="about" id="about">
+            <h1>About</h1>
+            <p>
+                I'm a 2nd year Computer Science student at Brunel Univeristy London with a passion for web development. Currently im focusing on channeling all my creativeness into powerful and meaningful results.
+                At university I quite enjoy the usabailty engineering module because <I></I> I am able to develop my understanding of UI/UX, I am looking for a web devoleper placement to futher my knowledge. 
+                Through my studies at University and school I have learnt Java and Python, however I have self taught myself HTML/CSS/Javascript. This is because I enjoy designing websites/logos and seeing them in action
+                Passionate about technology and travel. 
+            </p>          
+        </div>
+    </section>
+
+    <section>
+        <div class="skills" id="skills">
+            <h1>My Skills</h1>
+            <div class="container">
+                <div class="left-col">
+                    <h4>Design</h4>
+                    <img src="Design.jpg">
+                    <ul>
+                        <li>Figma</li>
+                        <li>Wix</li>
+                        <li>SPSS</li>
+                        <li>Pen & Paper</li>
+                        <li>Canva</li>
+                    </ul>
+                </div>
+                <div class="middle-col">
+                    <h4>Frontend</h4>
+                    <img src="Frontend.jpg">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Using APIs (Google)</li>
+                    </ul>
+                </div>
+                <div class="right-col">
+                    <h4>Other</h4>
+                    <img src="Code.jpg">
+                    <ul>
+                        <li>PHP</li>
+                        <li>Github</li>
+                        <li>SQL</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </section>
+    
+
+ <section>
+    <div class="wrapper" id="projects">
+        <h1>My Projects</h1>
+        <div class="img-area">
+            <div class="single-img">
+                <a href="https://youtu.be/T6N0C1BojKY"><img src="Restaurant.png"></a>
+                    <div class="img-info">
+                        <h4>Restaurant</h4>
+                    </div>
+            </div>
+            <div class="single-img">
+                <a href="https://youtu.be/KIMluf1y4hk"><img src="E-Commerce.png"><a>
+                <div class="img-info">
+                    <h4>E-Commerce</h4>
+                </div>
+            </div>
+            <div class="single-img">
+                <a href="https://youtu.be/r31MEu0Jt-8"><img src="Christmas-Countdown.png"></a>
+                <div class="img-info">
+                    <h4>Christmas Countdown</h4>
+                </div>
+                       
+            </div>
+            <div class="single-img">
+                <a href="https://youtu.be/wzeVCigy_tA"> <img src="Travel-blog.png"></a> 
+                <div class="img-info">
+                    <h4>Travel Blog</h4>
+                </div>                     
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    
+    <section>
+        <form class="contacts" id="contact" action="https://formspree.io/f/meqpwqql" method="POST">
+            <div class="contact-right">
+                <h1>GET IN TOUCH</h1>
+                <p>Sumit.argi@gmail.com</p>
+            </div>
+            <div class="contact-left">
+                <div class="input-row">
+                    <div class="input">
+                        <input type="text"  name="name" id="name" required minlength="3" maxlength="15" placeholder="Name"> 
+                    </div>
+                </div>
+                <div class="input-row-subject">
+                    <input type="text"  name="subject" id="subject" required minlength="5" maxlength="25"placeholder="Subject">
+                </div>
+                <textarea name="message" id="message" rows="5" placeholder="Type your message here..."></textarea>
+
+                <button type="submit">Submit</button>
+                <div id=success-message></div>
+            
+            </div>
+        </form>
+    </section>
+    
+    
+</body>
+
+
+
+</html>
